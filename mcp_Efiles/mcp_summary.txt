@@ -1,0 +1,16 @@
+遇到的问题：
+1. 因为水母的重量有3kg， 一般的motor 的马力不足，无法带动水母移动move。
+
+解决方案： 和其他小组成员讨论，和advisor沟通, 他们推荐了encoder motor。它的马力power比较大，并且还增加编码功能，可以设定转动角度set rotation angle。
+
+2. 传送带conveyor belt不稳定，走线trace问题，infrared (IR) sensor/sound sensor 与 moving board功能相撞. -- 前期设计不合理，不应该做moving board 功能，耗时耗力，有许多机械/力学上的问题是我们所不了解的。
+
+
+!用什么库： 
+encoder motor需要用到motor driver, 需要include driver library. 
+在编写led灯时使用的是ws2812需要使用adafruit.neupiexl.h
+
+! 重新熟悉一下arduino
+
+! 查看综合版本代码
+
