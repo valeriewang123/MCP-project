@@ -14,3 +14,6 @@ encoder motor需要用到motor driver, 需要include driver library.
 
 ! 查看综合版本代码
 
+
+Other file doc are stored in Google drive:
+https://drive.google.com/drive/folders/1DJD-6dt-zxpphJhXs-2szb7Y0iRYYpLN
